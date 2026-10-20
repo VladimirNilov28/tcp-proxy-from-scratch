@@ -1,0 +1,33 @@
+name: Notify Documentation Hub
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify central documentation repository
+        env:
+          DOCS_HUB_TOKEN: ${{ secrets.DOCS_HUB_TOKEN }}
+        run: |
+          if [ -z "$DOCS_HUB_TOKEN" ]; then
+            echo "::error::DOCS_HUB_TOKEN is not configured."
+            exit 1
+          fi
+
+          curl --fail-with-body --silent --show-error \
+            --request POST \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer $DOCS_HUB_TOKEN" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --header "Content-Type: application/json" \
+            --data '{"event_type":"documentation-updated","client_payload":{"repository":"VladimirNilov28/tcp-proxy-from-scratch","branch":"main"}}' \
+            https://api.github.com/repos/VladimirNilov28/VladimirNilov28.github.io/dispatches
