@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "TCP Proxy from Scratch"
+  name: "TCP Proxy from Scratch IT WORKS!!!"
   text: "Learn network programming with Java NIO"
   tagline: A step-by-step guide to understanding TCP connections, non-blocking I/O, and byte forwarding.
   actions:
