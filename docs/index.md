@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Read the introduction
-      link: /guide/introduction
+      link: ./guide/introduction.md
     - theme: alt
       text: View on GitHub
       link: https://github.com/VladimirNilov28/tcp-proxy-from-scratch
@@ -28,5 +28,5 @@ features:
 The following pages contain illustrative settings and simulated results for previewing this documentation site. They do not describe an implemented proxy or actual benchmark results.
 :::
 
-- [Sample configuration](/guide/sample-configuration): example addresses, buffer sizes, and connection settings.
-- [Test scenarios](/guide/test-scenarios): sample traffic, simulated logs, and expected connection behavior.
+- [Sample configuration](./guide/sample-configuration.md): example addresses, buffer sizes, and connection settings.
+- [Test scenarios](./guide/test-scenarios.md): sample traffic, simulated logs, and expected connection behavior.

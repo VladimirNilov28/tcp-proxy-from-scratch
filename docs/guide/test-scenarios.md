@@ -10,7 +10,7 @@ All sessions, log entries, and results below are synthetic documentation fixture
 
 ## Example traffic
 
-These cases use the loopback addresses from the [sample configuration](/guide/sample-configuration).
+These cases use the loopback addresses from the [sample configuration](./sample-configuration.md).
 
 | Session | Client payload | Expected echo | Payload size |
 | --- | --- | --- | --- |
@@ -69,4 +69,4 @@ Payload sizes assume UTF-8 encoding without a trailing newline. A stream can spl
 - Exercise slow readers, connection failures, and half-closes.
 - Record the Java version, operating system, and workload with any measurements.
 
-Return to the [introduction](/guide/introduction) for the underlying networking concepts.
+Return to the [introduction](./introduction.md) for the underlying networking concepts.

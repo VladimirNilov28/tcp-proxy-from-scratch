@@ -56,4 +56,4 @@ Follow the project's progress in the [GitHub repository](https://github.com/Vlad
 
 ## Explore the demo pages
 
-Use the [sample configuration](/guide/sample-configuration) and [test scenarios](/guide/test-scenarios) to preview tables, code blocks, callouts, and navigation. All settings and results on those pages are illustrative.
+Use the [sample configuration](./sample-configuration.md) and [test scenarios](./test-scenarios.md) to preview tables, code blocks, callouts, and navigation. All settings and results on those pages are illustrative.

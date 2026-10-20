@@ -71,4 +71,4 @@ A production event loop must retry pending writes when the destination is writab
 
 ## Related pages
 
-Continue to [test scenarios](/guide/test-scenarios) for sample traffic and expected behavior, or return to the [introduction](/guide/introduction).
+Continue to [test scenarios](./test-scenarios.md) for sample traffic and expected behavior, or return to the [introduction](./introduction.md).

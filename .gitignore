@@ -23,10 +23,11 @@
 hs_err_pid*
 replay_pid*
 
-# Node.js dependencies
-node_modules/
-
-# VitePress generated files
+# Temporary documentation files and generated output
+/docs/**/*.tmp
+/docs/**/*.temp
+/docs/**/*~
+/docs/**/.DS_Store
 /docs/.vitepress/cache/
 /docs/.vitepress/dist/
 
