@@ -1,0 +1,7 @@
+1. Client connects to TCP-proxy port configured for allowing connections
+
+2. Proxy opens second connection with target server. After that, proxy provide bites into both sides till one of the sides finishes its session
+
+3. Traffic contents haven't been inspected. Same mechanism works with any protocol which uses TCP
+
+
